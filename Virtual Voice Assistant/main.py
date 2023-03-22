@@ -75,7 +75,7 @@ if __name__=='__main__':
         
         statement = takeCommand().lower()      
 
-        if "goodbye" in statement or "bye" in statement or "shutdown" in statement or "stop" in statement:
+        if "goodbye" in statement or "bye" in statement or "stop" in statement:
             print('Your personal assistant Alexa is shutting down, Good bye')
             speak('Your personal assistant Alexa is shutting down, Good bye')
             break
@@ -267,7 +267,7 @@ if __name__=='__main__':
             print(results)
             speak(results)
 
-        elif "log off" in statement or "sign out" in statement:
+        elif "log off" in statement or "sign out" in statement or 'shutdown' in statement:
             speak("Ok , your pc will log off in 10 sec make sure you exit from all applications")
             subprocess.call(["shutdown", "/l"])
 
