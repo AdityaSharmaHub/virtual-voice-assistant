@@ -75,7 +75,7 @@ if __name__=='__main__':
         
         statement = takeCommand().lower()      
 
-        if "goodbye" in statement or "bye" in statement or "stop" in statement:
+        if "goodbye" in statement or "bye" in statement or "stop" in statement or "exit" in statement: 
             print('Your personal assistant Alexa is shutting down, Good bye')
             speak('Your personal assistant Alexa is shutting down, Good bye')
             break
