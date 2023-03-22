@@ -62,8 +62,8 @@ def takeCommand():
 
 print("Hi, I'm your personal assistant - Alexa")
 speak("Hi, I'm your personal assistant - Alexa")
-# wishMe()
-# askname()
+wishMe()
+askname()
 print('How can I help you?\n')
 speak("How can I help you?")
 
@@ -267,9 +267,17 @@ if __name__=='__main__':
             print(results)
             speak(results)
 
-        elif "log off" in statement or "sign out" in statement or 'shutdown' in statement:
+        elif "log off" in statement or "sign out" in statement:
             speak("Ok , your pc will log off in 10 sec make sure you exit from all applications")
             subprocess.call(["shutdown", "/l"])
+
+        elif 'shutdown' in statement:
+            speak("Hold on a sec! Your system is on its way to shutdown")
+            subprocess.call('shutdown / p /f')
+
+        elif 'restart' in statement:
+            speak("Your system will restart now")
+            subprocess.call(["shutdown", "/r"])
 
         elif "bored" in statement:
             print("I'm here to do cool tasks for you")
