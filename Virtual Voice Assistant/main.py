@@ -193,7 +193,7 @@ if __name__=='__main__':
             location = statement
             speak("User asked to Locate")
             speak(location)
-            webbrowser.open("https://www.google.nl / maps / place/" + location + "")
+            webbrowser.open("https://www.google.com/maps/place/" + location + "")
 
         elif 'time' in statement:
             strTime=datetime.datetime.now().strftime("%I:%M %p")
