@@ -1,5 +1,5 @@
 
-# Virtual Voice Assistant - Desktop Application using Python
+# Virtual Voice Assistant - Desktop based Python GUI Application
 
 A desktop based GUI application used as a voice assistant just like Alexa which is build using python libraries.
 
@@ -56,12 +56,6 @@ Step 4: Run the project
 **Client:** Python
 
 **Database:** MySQL
-
-
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
 
 # Hi, I'm Aditya Sharma! 👋
 
