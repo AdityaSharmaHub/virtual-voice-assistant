@@ -1,5 +1,5 @@
 
-# Virtual Voice Assistant - Desktop Application
+# Virtual Voice Assistant - Desktop Application using Python
 
 A desktop based GUI application used as a voice assistant just like Alexa which is build using python libraries.
 
@@ -37,7 +37,11 @@ Step 2: Go to the project directory
 Step 3: Install dependencies
 
 ```bash
-  pip install
+  pip install                         // for windows
+```
+or
+```bash
+  pip3 install                        // for mac and linux
 ```
 
 Step 4: Run the project
@@ -74,10 +78,11 @@ Known languages - Javascript, Python, C++, Java
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Known languages - Javascript, Python, C++, Java <br />
+Web Development - HTML, CSS, Javascript
 
 
 ## Support
 
-For support, email fake@fake.com or join our Slack channel.
+For support, email adisharma4857@gmail.com or vishnuyelde@gmail.com.
 
